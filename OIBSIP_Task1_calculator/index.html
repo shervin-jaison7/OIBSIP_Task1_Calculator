@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/Circle-icons-calculator.svg.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>                                       
+    <script src="script1.js"></script>
+</head>
+
+<body>
+    <div class="main-body">
+        <div class="box">
+            <form>
+                <input type="text" placeholder="0" value="0" id="number-input">
+                <div class="result"></div>
+            </form>
+            <div class="button-set">
+                <input type="checkbox" name="sec-button" id="radio2nd">
+                <label for="radio2nd" style="text-align: center;">2<sup style="align-self: flex-start;margin-top: 15px;font-size: 11px;">nd</sup></label>
+                <button class="constant" value="PI">&pi;</button>
+                <button class="constant" value="E">e</button>
+                <button class="clear">C</button>
+                <button class="backspace"><img src="images/backspace_white_18dp.svg" style="margin-top: 7px;" alt="icon"></button>
+                <button class="symbols one_no fst-set" value="sq">𝑥&#178;</button>
+                <button class="symbols one_no snd-set" value="cb">𝑥&#179;</button>
+                <button class="symbols one_no" value="inv">&#8543;𝑥</button>
+                <button class="symbols one_no" value="modd">|𝑥|</button>
+                <button class="symbols two_no" value="%">%</button>
+                <button class="symbols two_no" value="/" style="font-size: 20px;">&#247;</button>
+                <button class="symbols one_no fst-set" value="sqrt">&#x221A;𝑥</button>
+                <button class="symbols one_no snd-set" value="cbrt">&#8731;𝑥</button>
+                <button class="bracket" id="open-bracket" value="(">(<span id="bracket-no" style="font-size: 10px;">0</span></button>
+                <button class="bracket" value=")">)</button>
+                <button class="symbols one_no" value="fact">𝑛!</button>
+                <button class="symbols two_no" value="*" style="font-size: 20px;">&#215;</button>
+                <button class="symbols two_no snd-set " value="**">𝑥<sup>𝑦</sup></button>
+                <button class="symbols one_no fst-set" value="2_pow">2<sup>𝑥</sup></button>
+                <button class="numbers" value="7">7</button>
+                <button class="numbers" value="8">8</button>
+                <button class="numbers" value="9">9</button>
+                <button class="symbols two_no" value="-">-</button>
+                <button class="symbols one_no fst-set" value="10_pow">10<sup>𝑥</sup></button>
+                <button class="symbols one_no snd-set" value="ex">e<sup>𝑥</sup></button>
+                <button class="numbers" value="4">4</button>
+                <button class="numbers" value="5">5</button>
+                <button class="numbers" value="6">6</button>
+                <button class="symbols two_no" value="+">+</button>
+                <button class="symbols one_no" value="log">log</button>
+                <button class="numbers" value="1">1</button>
+                <button class="numbers" value="2">2</button>
+                <button class="numbers" value="3">3</button>
+                <button class="ans" value="ans">=</button>
+                <button class="symbols one_no" value="ln">ln</button>
+                <button class="symbols one_no" value="neg">&#177;</button>
+                <button class="numbers" value="0">0</button>
+                <button class="symbols one_no" value=".">.</button>
+            </div>
+        </div>
+    </div>
+     <footer>
+            <p>By SHERVIN JAISON</p>
+     </footer>
+</body>
+
+</html>
